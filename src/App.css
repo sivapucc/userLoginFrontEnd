@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.baseContainer {
+  background-image: url("https://cdn.prod.website-files.com/61eff6b3236cf9057b6c1fac/62f2d57b3787747b81f68a9c_istockphoto-1172944401-612x612.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItems {
+  display: flex;
+  gap: 20px;
+}
+.logLink:hover {
+  height: 60px;
+  width: 120px;
+  background-color: #16d9eb;
+}
+
+.loginpageContainer {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220920/pngtree-blue-technology-interface-with-dial-digital-interface-design-photo-image_14635868.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginImg {
+  border: 0;
+  padding: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+.signupImg {
+  border: 0;
+  padding: 0;
+  border-radius: 20px 20px 0px 0px;
+}
+.signupPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220920/pngtree-blue-technology-interface-with-dial-digital-interface-design-photo-image_14635868.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #33deed;
+
+  box-shadow: 2px 5px 8px 20px #0b6da2;
+  border-radius: 2 0px;
+}
+.loginPage {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+.signupPage {
+  width: 500px;
+  height: 800px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+.welcome-text {
+  color: white;
+  z-index: 100;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.link1 {
+  text-decoration: none;
+}
+.link2 {
+  text-decoration: none;
+}
+.link-container {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 9.5rem;
+}
+.signup-link-container {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+}
+.welcomeContainer {
+  width: 100vw;
+  height: 100vh;
+  color: #fac7ab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/premium-vector/paper-layer-circle-blue-abstract-background_43029-953.jpg?semt=ais_hybrid");
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 20px;
+}
+.logoutBtn {
+  border: 0;
+  padding: 10px;
+  border-radius: 15px;
+}
+.logoutBtn:hover {
+  background-color: #ededa4;
+  border: 2px solid white;
+  width: 100px;
+  height: 50px;
+}
+.nameContent {
+  font-weight: bold;
+  font-size: 50px;
+  color: #f77278;
+}
+.nanPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
